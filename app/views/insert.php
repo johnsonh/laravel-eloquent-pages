@@ -21,7 +21,7 @@ echo '<h2> Welcome to the Insert page! Insert something? </h2>';
 
 if (Session::has('message'))
 {
-    echo '<p style="color: green;">';
+    echo '<p style="background-color: green;">';
     echo Session::get('message');
     echo '</p>';
 }

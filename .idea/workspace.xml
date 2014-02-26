@@ -37,10 +37,10 @@
           <file leaf-file-name="insert.php" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/views/insert.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="24" column="30" selection-start="392" selection-end="392" vertical-scroll-proportion="0.76119405" vertical-offset="0" max-vertical-offset="1615">
+                <state line="23" column="31" selection-start="355" selection-end="355" vertical-scroll-proportion="0.7294776" vertical-offset="0" max-vertical-offset="1615">
                   <folding>
                     <element signature="e#6#87#0" expanded="true" />
-                    <marker date="1393407728149" expanded="true" signature="344:357" placeholder="..." />
+                    <marker date="1393407815566" expanded="true" signature="355:368" placeholder="..." />
                   </folding>
                 </state>
               </provider>
@@ -681,10 +681,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/insert.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="30" selection-start="392" selection-end="392" vertical-scroll-proportion="0.76119405" vertical-offset="0" max-vertical-offset="1615">
+        <state line="23" column="31" selection-start="355" selection-end="355" vertical-scroll-proportion="0.7294776" vertical-offset="0" max-vertical-offset="1615">
           <folding>
             <element signature="e#6#87#0" expanded="true" />
-            <marker date="1393407728149" expanded="true" signature="344:357" placeholder="..." />
+            <marker date="1393407815566" expanded="true" signature="355:368" placeholder="..." />
           </folding>
         </state>
       </provider>
