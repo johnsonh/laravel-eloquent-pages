@@ -83,8 +83,7 @@ class DvdController extends BaseController
         $dvd->format_id = Input::get('format');
         $dvd->save();
 
-        echo 'bsbbsbsbs';
-//        return Redirect::to('dvds/create')->with('message', 'Record was inserted successfully!');
+        return Redirect::to('dvds/create')->with('message', 'Record was inserted successfully!');
     }
 
 

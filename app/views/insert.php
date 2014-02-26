@@ -22,7 +22,7 @@ echo '<h2> Welcome to the Insert page! Insert something? </h2>';
 if (Session::has('message'))
 {
     echo '<p style="color: green;">';
-    echo Session::get('success');
+    echo Session::get('message');
     echo '</p>';
 }
 
