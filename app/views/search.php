@@ -9,8 +9,6 @@
 //var_dump($genres);
 //var_dump($ratings);
 
-$stuff = 'stuffstuff';
-
 //{{ Form::open(array('action' => 'DvdController@getResults')); }}
 ////
 //echo '<h2> Welcome to the Search page! Search something? </h2>';
@@ -36,9 +34,9 @@ $stuff = 'stuffstuff';
 //
 //{{ Form::close(); }}
 
+echo '<h2> Welcome to the Search page! Search something? </h2>';
 
 echo '<form action="/dvds" method="post">';
-echo '<br/>';
 
 echo '<p>Title: <input type="text" name ="title"></p>';
 echo '<p>Genre: <select name="genre">';

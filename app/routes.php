@@ -16,8 +16,10 @@ Route::get('/', function()
 	return View::make('hello');
 });
 
-Route::get('/dvds/search', 'DvdController@getMenuOptions');
+Route::get('/dvds/search', 'DvdController@getSearchMenuOptions');
 
 Route::post('/dvds', 'DvdController@getResults');
 
-//Route::get('/dvds', 'DvdController@getResults');
+Route::get('/dvds/create', 'DvdController@getInsertMenuOptions');
+
+Route::post('/dvds/inserttemp', 'DvdController@putDvd');

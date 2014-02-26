@@ -10,7 +10,7 @@ class DvdController extends BaseController
 {
     //public $restful = true;
 
-    public function getMenuOptions()
+    public function getSearchMenuOptions()
     {
         //query the model first
         //$thing = new Dvd();
@@ -49,5 +49,45 @@ class DvdController extends BaseController
             'results' => $results//->toArray()
         ]);
     }
+
+    public function getInsertMenuOptions()
+    {
+        $genres = Genre::all();
+        $ratings = Rating::all();
+        $labels = Label::all();
+        $sounds = Sound::all();
+        $formats = Format::all();
+
+        return View::make('insert', [
+            'genres' => $genres,
+            'ratings' => $ratings,
+            'labels' => $labels,
+            'sounds' => $sounds,
+            'formats' => $formats
+        ]);
+    }
+
+    public function putDvd()
+    {
+        echo 'dfsdfsdf';
+
+        $dvd = Dvd::create(array(
+            'title' => Input::get('title'),
+            'rating_id' => Input::get('rating'),
+            'genre_id' => Input::get('genre'),
+            'label_id' => Input::get('label'),
+            'sound_id' => Input::get('sound'),
+            'format_id' => Input::get('format')
+        ));
+
+        $dvd->save();
+
+    }
+
+
+
+
+
+
 
 }
