@@ -18,7 +18,15 @@
 
 echo '<h2> Welcome to the Insert page! Insert something? </h2>';
 
-echo '<form action="/dvd/inserttemp" method="post">';
+
+if (Session::has('message'))
+{
+    echo '<p style="color: green;">';
+    echo Session::get('success');
+    echo '</p>';
+}
+
+echo '<form action="/dvds/inserttemp" method="post">';
 
 echo '<p>Title: <input type="text" name ="title"></p>';
 echo '<p>Genre: <select name="genre">';

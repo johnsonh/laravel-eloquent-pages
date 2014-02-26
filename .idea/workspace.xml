@@ -22,24 +22,25 @@
     <favorites_list name="499-laravel" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.4018088">
+    <splitter split-orientation="horizontal" split-proportion="0.5052023">
       <split-first>
         <leaf>
-          <file leaf-file-name="routes.php" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="routes.php" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/routes.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="25" column="0" selection-start="699" selection-end="699" vertical-scroll-proportion="0.5281553" vertical-offset="0" max-vertical-offset="515">
+                <state line="20" column="44" selection-start="568" selection-end="568" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="374">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="insert.php" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="insert.php" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/views/insert.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="20" column="35" selection-start="327" selection-end="327" vertical-scroll-proportion="-11.115385" vertical-offset="51" max-vertical-offset="1479">
+                <state line="21" column="23" selection-start="316" selection-end="316" vertical-scroll-proportion="0.6660448" vertical-offset="0" max-vertical-offset="1615">
                   <folding>
                     <element signature="e#6#87#0" expanded="true" />
+                    <marker date="1393407362662" expanded="true" signature="344:357" placeholder="..." />
                   </folding>
                 </state>
               </provider>
@@ -90,10 +91,10 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="DvdController.php" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="DvdController.php" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/controllers/DvdController.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="70" column="5" selection-start="1553" selection-end="1553" vertical-scroll-proportion="0.46842104" vertical-offset="175" max-vertical-offset="918">
+                <state line="85" column="25" selection-start="2069" selection-end="2069" vertical-scroll-proportion="0.7558348" vertical-offset="276" max-vertical-offset="969">
                   <folding>
                     <element signature="n#getResults#0;n#DvdController#0;n#!!top" expanded="false" />
                     <element signature="n#getInsertMenuOptions#0;n#DvdController#0;n#!!top" expanded="false" />
@@ -127,15 +128,15 @@
         <option value="$PROJECT_DIR$/app/models/Format.php" />
         <option value="$PROJECT_DIR$/app/views/search.php" />
         <option value="$PROJECT_DIR$/app/routes.php" />
-        <option value="$PROJECT_DIR$/app/controllers/DvdController.php" />
         <option value="$PROJECT_DIR$/app/views/insert.php" />
+        <option value="$PROJECT_DIR$/app/controllers/DvdController.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="460" />
-    <option name="width" value="906" />
+    <option name="x" value="369" />
+    <option name="width" value="997" />
     <option name="height" value="728" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -260,6 +261,23 @@
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="ba4a2dbc-0116-4b12-8197-169352979718" name="Default" comment="" />
@@ -269,7 +287,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="460" y="0" width="906" height="728" extended-state="0" />
+    <frame x="369" y="0" width="997" height="728" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -278,7 +296,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329582" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13033707" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.11824669" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
@@ -625,6 +643,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="44" selection-start="568" selection-end="568" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="374">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/search.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="26" selection-start="441" selection-end="441" vertical-scroll-proportion="-8.5" vertical-offset="153" max-vertical-offset="1258">
@@ -644,29 +669,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/insert.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="23" selection-start="316" selection-end="316" vertical-scroll-proportion="0.6660448" vertical-offset="0" max-vertical-offset="1615">
+          <folding>
+            <element signature="e#6#87#0" expanded="true" />
+            <marker date="1393407362662" expanded="true" signature="344:357" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/DvdController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="5" selection-start="1553" selection-end="1553" vertical-scroll-proportion="0.46842104" vertical-offset="175" max-vertical-offset="918">
+        <state line="85" column="25" selection-start="2069" selection-end="2069" vertical-scroll-proportion="0.7558348" vertical-offset="276" max-vertical-offset="969">
           <folding>
             <element signature="n#getResults#0;n#DvdController#0;n#!!top" expanded="false" />
             <element signature="n#getInsertMenuOptions#0;n#DvdController#0;n#!!top" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/insert.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="35" selection-start="327" selection-end="327" vertical-scroll-proportion="-11.115385" vertical-offset="51" max-vertical-offset="1479">
-          <folding>
-            <element signature="e#6#87#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="699" selection-end="699" vertical-scroll-proportion="0.5281553" vertical-offset="0" max-vertical-offset="515">
-          <folding />
         </state>
       </provider>
     </entry>

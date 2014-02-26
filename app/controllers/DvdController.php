@@ -10,11 +10,16 @@ class DvdController extends BaseController
 {
     //public $restful = true;
 
+    protected $fillable = array('title','rating_id','genre_id',
+        'label_id', 'sound_id', 'format_id');
+
+//    public static $unguarded = true;
+    protected $guarded = array();
+
     public function getSearchMenuOptions()
     {
         //query the model first
         //$thing = new Dvd();
-        //$thing->
         $genres = Genre::all();
         $ratings = Rating::all();
 
@@ -69,19 +74,17 @@ class DvdController extends BaseController
 
     public function putDvd()
     {
-        echo 'dfsdfsdf';
-
-        $dvd = Dvd::create(array(
-            'title' => Input::get('title'),
-            'rating_id' => Input::get('rating'),
-            'genre_id' => Input::get('genre'),
-            'label_id' => Input::get('label'),
-            'sound_id' => Input::get('sound'),
-            'format_id' => Input::get('format')
-        ));
-
+        $dvd = new Dvd;
+        $dvd->title = Input::get('title');
+        $dvd->rating_id = Input::get('rating');
+        $dvd->genre_id = Input::get('genre');
+        $dvd->label_id = Input::get('label');
+        $dvd->sound_id = Input::get('sound');
+        $dvd->format_id = Input::get('format');
         $dvd->save();
 
+        echo 'bsbbsbsbs';
+//        return Redirect::to('dvds/create')->with('message', 'Record was inserted successfully!');
     }
 
 
